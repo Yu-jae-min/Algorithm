@@ -32,9 +32,7 @@ const test01 = (price, money, count) => {
   return result > money ? result - money : 0;
 };
 
-console.time("1");
 console.log(test01(3, 20, 4)); // 10
-console.timeEnd("1");
 
 /*
   # 문제풀이 - test01
@@ -47,9 +45,7 @@ const test02 = (price, money, count) => {
   return tmp > 0 ? tmp : 0;
 };
 
-console.time("2");
 console.log(test02(3, 20, 4)); // 10
-console.timeEnd("2");
 
 /*
   # 문제풀이 - test02
