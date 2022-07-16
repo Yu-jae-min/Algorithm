@@ -40,7 +40,7 @@ const solutionFirst = (participant, completion) => {
 console.log(solutionFirst(participant, completion));
 
 /*
-  # 문제풀이 - test01
+  # 문제풀이 - solutionFirst
   1. 두 배열을 index로 비교하기 위해 sort 메소드로 정렬하였다.
   2. for문을 통해 index 비교 후 값이 같지 않은 경우 완주자 명단에 없는 선수이기 때문에 그 값을 반환하였다.
 */
