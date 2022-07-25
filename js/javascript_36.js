@@ -40,9 +40,7 @@ const solutionFirst = (numbers) => {
   return result;
 };
 
-console.time("test1");
 console.log(solutionFirst(numbers));
-console.timeEnd("test1");
 
 /*
   # 문제풀이 - solutionFirst
@@ -56,9 +54,7 @@ const solutionSecond = (numbers, decimalSum = 45) => {
   return numbers.reduce((acc, cur) => acc - cur, decimalSum);
 };
 
-console.time("test2");
 console.log(solutionSecond(numbers));
-console.timeEnd("test2");
 
 /*
   # 문제풀이 - solutionSecond
